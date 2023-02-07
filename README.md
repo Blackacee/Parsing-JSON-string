@@ -1,2 +1,4 @@
 # Parsing-JSON-string
-Parses a string as JSON and returns a JS primitive, array or object
+
+const array = JSON.parse('[1, 2, "c", "d", {"e": false}]');
+console.log(array); // logs: [1, 2, "c", "d", {e: false}]
